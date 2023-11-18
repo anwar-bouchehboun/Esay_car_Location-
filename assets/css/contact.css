@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital@1&family=Brygada+1918:ital@1&family=Inter:wght@100&family=Irish+Grover&family=Italianno&family=Playfair+Display:ital@1&family=Poppins:wght@300;400;700&display=swap");
+* {
+  font-family: "anybody";
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.containerr {
+  height: 23vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+.img2 {
+  background-image: url(/assets/images/contact/contact-car2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+.item {
+  width: 60%;
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+}
+
+.containerAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+}
+
+.containerrr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  gap: 10%;
+}
+.nav-link {
+  color: #fff !important;
+}
+.cont {
+  height: 50%;
+}
+.div-contact{
+  height: auto;
+}
+.herowin {
+  background-image: url(../images/contact/contact_car1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text h1 {
+  font-size: 4vw;
+}
+.hero-text h4 {
+  font-size: 2vw;
+}
+.section3 {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.infos h4{
+  font-size:2em;
+}
+.infos p{
+  font-size:1em;
+}
+.item img{
+  width: 3em;
+}
+
+@media screen and (max-width: 767px) {
+  .item{
+    width: 100%;
+  }
+  .img2{
+    height: 80vh;
+  }
+  .herowin{
+    height: 80vh;
+    align-items: center;
+    justify-content: start;
+  }
+  .hero-text{
+    text-align: left;
+    padding-left: 20px;
+    width: 70%;
+  }
+  .hero-text h1{
+    font-size: 6vh;
+  }
+  .hero-text h4{
+    font-size: 3vh;
+  }
+}

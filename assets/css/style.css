@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap");
+
+:root {
+  --clr-primary: hsl(0, 100%, 50%);
+  --clr-semi-primary: hsl(0, 100%, 30%);
+  --clr-secondary: hsl(0, 0%, 12%);
+  --ff-primary: 'Anybody', sans-serif;
+
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+
+  --fs-primary-heading: 3rem;
+  --fs-secondary-heading: 2rem;
+  --fs-h3-heading: 1.2rem;
+  --fs-paragraph: 1rem;
+  --fs-button: 1rem;
+  --fs-link: 1.1rem;
+
+  --size-100: 0.25rem;
+  --size-200: 0.5rem;
+  --size-300: 0.75rem;
+  --size-400: 1rem;
+  --size-500: 1.5rem;
+  --size-600: 2rem;
+  --size-700: 3rem;
+  --size-800: 5rem;
+  --size-900: 5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anybody';
+}
+
+/* utility classes */
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+  line-height: 1.1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.clr-primary {
+  color: var(--clr-primary);
+}
+
+.bold {
+  font-weight: var(--fw-bold);
+}
+
+h3 {
+  font-size: var(--size-500) !important;
+  font-weight: bold !important;
+}
+
+/* general styling */
+html,
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.button {
+  cursor: pointer;
+  border: 3px solid var(--clr-primary);
+  border-radius: 100vmax;
+  padding: 1em 1em;
+  min-width: 150px;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-button);
+  line-height: 1;
+  color: var(--clr-secondary);
+  background: #fff;
+  box-shadow: 0 1.125em 1em -1em var(--clr-semi-primary);
+  transition: .5s ease;
+}
+
+.button.active,
+.button:hover {
+  background: var(--clr-primary);
+  color: #fff;
+  font-size: var(--fs-button);
+}
+
+.navbar {
+  margin: 0 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.hero-navigation .nav-link {
+  color: var(--clr-secondary);
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item .active {
+  color: var(--clr-primary) !important;
+}
+
+.nav-item .nav-link:hover,
+.social-items i:hover {
+  transition: .5s;
+  color: var(--clr-primary) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-list li a {
+  color: #fff !important;
+}
+
+#navLink:hover {
+  color: var(--clr-primary);
+
+}
+
+/* footer */
+.social-items i {
+  font-size: 24px;
+}
+
+.page-num {
+  border: 2px solid var(--clr-primary);
+}
+
+.page-num:hover {
+  background: var(--clr-primary);
+  color: #fff;
+}
+
+.panel-counter {
+  color: #fff;
+  background: red;
+  position: absolute;
+  right: 70px;
+  font-size: 13px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+
+}
+
+

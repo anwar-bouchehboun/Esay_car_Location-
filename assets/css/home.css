@@ -1,0 +1,168 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.hero {
+    margin-top: 6rem;
+}
+
+.text-center h1 {
+    color: red;
+}
+
+.thisis {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-text-top {
+    color: var(--clr-secondary) !important;
+}
+
+.nav-text-footer {
+    color: white !important;
+}
+
+.button-footer-container {
+    background-color: red;
+    height: auto;
+    border-radius: 100px;
+    width: 13rem;
+}
+.google-play-icon {
+    width: 25%;
+    height: 10%;
+    padding-left: .5rem;
+}
+
+.temp-speed-power {
+    gap: 4rem;
+}
+.download {
+    cursor: pointer;
+}
+
+/* images */
+
+
+.top-left-image {
+    background-image: url(../images/home/Rectangle\ 208.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-mercedes {
+    background-position: center;
+    background-size: cover;
+}
+
+.buttom-hero h4 {
+    font-size: 1rem;
+    margin: 0;
+}
+.buttom-hero p {
+    color: black;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.description{
+ font-size: .8rem !important;
+}
+
+@media (max-width:767px) {
+    .thisis{
+        gap: 1rem;
+    }
+    /* .collapse {
+        padding: 2rem 0;
+        background-color: red !important;
+    } */
+    .nav-text-top {
+        color: var(--clr-secondary) !important;
+        font-size: 1.5rem;
+    }
+    .nav-text-footer {
+        color: white !important;
+    }
+
+
+}
+
+
+/* Custom CSS to remove accordion gutters */
+
+/* FAQ */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/%3E%3C/svg%3E") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+}
+
+
+.accordion-button {
+    font-size: 1.5rem !important;
+    color: white !important;
+}
+
+.first-section h4{
+    color: white;
+}
+
+.mercedes{
+    cursor: pointer;
+}
+.mercedes h4 {
+    margin: 0 !important;
+}
+
+.mercedes i {
+    font-size: 2rem;
+    color: white;
+    transition: 600ms ease-in;
+}
+
+.mercedes:hover i{
+    color: red !important;
+}
+
+.accordion-item {
+    background-color: transparent!important;
+    border: none !important;
+}
+
+.accordion-body {
+    background-color: #D9D9D9 !important;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+}
+
+
+
+/* caroussel */ 
+
+
+
+.ANAS h1 {
+    color: rebeccapurple;
+}
+
+.FAQ {
+    color: red;
+}
+
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='red' class='bi bi-arrow-right-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='red' class='bi bi-arrow-left-circle' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z'/%3E%3C/svg%3E%0A") !important;
+}

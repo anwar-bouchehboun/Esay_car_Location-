@@ -1,0 +1,9 @@
+.btn {
+    border: solid red 2px !important;
+    border-radius: 10rem !important;
+    color: black !important;
+}
+.btn1:hover {
+    background-color: whitesmoke !important;
+    color: red !important;
+}

@@ -1,0 +1,131 @@
+
+html, body{
+    overflow-x: hidden;
+}
+.hero{
+    background-image: url(/assets/images/about/car-is-driving-road-night-forest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+/* .hero{
+    padding-top: 6%;
+} */
+.company{
+    padding-top: 5%;
+}
+  .nav-item #id-link {
+    color:red !important;
+} 
+.nav-text-top {
+    color: var(--clr-secondary) !important;
+}
+
+.OUR-F{
+    background-image: url(/assets/images/about/carx.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+.cards{
+   margin: 0 auto;
+}
+/* FOOTER */
+
+.nav-text-footer {
+    color: white !important;
+}
+
+.button-footer-container {
+    background-color: red;
+    height: auto;
+    border-radius: 100px;
+    width: 13rem;
+}
+.google-play-icon {
+    width: 25%;
+    height: 10%;
+    padding-left: .5rem;
+}
+h3 {
+    font-size: 8px !important;
+  
+  }
+@media  (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+   
+    /* hero */
+    
+    .hero {
+             padding-top: 15%;
+             
+        background-position: center center;
+    }
+    #navbarDark{
+        background-color:var(--clr-secondary);
+       
+    }
+    .company{
+        padding-top: 15%;
+        width: auto !important;
+        font-size: 24px !important;
+  
+    }
+    .pa-hero{
+        width: 50% !important;
+        font-size: 12px !important;
+        
+    }
+    /* about */
+    
+ .about-content{
+    margin: 0 auto !important;
+    text-align: center;
+    padding-top: 0 !important;
+     width: 20% !important;
+ }
+ .H-ABOUT{
+    padding-bottom: 0rem!important;
+ }
+ .imageabout {
+    
+    padding-top: 20% !important;
+    width: 100%;
+ }
+/* our */
+
+.OUR-F{
+    padding-bottom: 10%;
+   height: auto;
+   width: 100% !important;
+   
+}
+.cards{
+    width: 80% !important;
+}
+.espace{
+
+    padding: 10%;
+}
+
+  }
+  
+/* 
+
+
+   .nav-link{
+    color: #fff;
+  }
+  .nav-link:hover{
+    color: red;
+  }  */
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280255,255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }

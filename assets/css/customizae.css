@@ -1,0 +1,43 @@
+@media  (max-width:768px) {
+    .card{
+        width: 100% !important;
+       
+    }
+    .car-ss{
+        width: 30% !important;
+    }
+    .image-car{
+        width: 350px !important;
+        margin-left: 15%;
+       
+        
+    }
+}
+.button-save{
+    cursor: pointer;
+    border: 3px solid var(--clr-primary);
+    border-radius: 100vmax;
+    padding: 1em 2em;
+    min-width: 100px;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-button);
+    line-height: 1;
+    color: var(--clr-secondary);
+    background: #fff;
+    box-shadow: 0 1.125em 1em -1em var(--clr-semi-primary);
+    transition: .5s ease;
+  }
+  .button-rest{
+    cursor: pointer;
+    border: 3px solid var(--clr-primary);
+    border-radius: 100vmax;
+    padding: 1em 2em;
+    min-width: 100px;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-button);
+    line-height: 1;
+    color: var(--clr-secondary);
+    background: #fff;
+    box-shadow: 0 1.125em 1em -1em var(--clr-semi-primary);
+    transition: .5s ease;
+  }
